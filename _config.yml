@@ -2,16 +2,16 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://getrom.github.io
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: 固件全收集
+subtitle: "刷出新天地，打开新世界的大门"
+description: "IoT固件全收集"
+keywords: N1固件, Webpad固件, YYF, Rush, N1旁路由, K2P固件, 荒野无灯
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/mzlogin.github.io
+repository: getrom/getrom.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -38,11 +38,11 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: 老白_getrom
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
+github_username: 
+location: Beijing, China
 email: chumpma@gmail.com
 
 # ---------------- #
@@ -120,17 +120,19 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: getrom
+    admin: getromcn    
+    repo: gitalk_store
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: 1087ba267266a2585931
+        client_secret: 83cd748ce24c66f4ab273a81947023b7ca61a6fd
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: getrom
+    admin: getromcn
+    repo: gitalk_store
+    clientID: 1087ba267266a2585931
+    clientSecret: 83cd748ce24c66f4ab273a81947023b7ca61a6fd
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -147,7 +149,7 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-1286743-4
     adsense:
         footer: true
         sidebar: true 
